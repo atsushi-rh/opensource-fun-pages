@@ -1,3 +1,24 @@
+#scrolling-message {
+    white-space: nowrap;
+    animation: scrolling  8s linear infinite;
+    font-size: 50px;
+    color: rgba(150, 0, 0 , 0.85);
+}
+
+.scrollback {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(200, 255, 50, 0.7);
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-120%);
+    }
+}
 .divnavi {
    float: left;
    border: 2px solid ;
