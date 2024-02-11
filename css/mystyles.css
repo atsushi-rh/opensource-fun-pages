@@ -1,0 +1,15 @@
+.divnavi {
+   float: left;
+   border: 2px solid ;
+   border-radius: 5px ;
+   margin: 4px;
+   padding: 4px;   
+}
+
+.backnavicolor {
+    background-color: rgba(10, 150,100,0.5);
+}
+.backcolor {
+    background-color: rgba(150, 50,255,0.5);
+}
+
