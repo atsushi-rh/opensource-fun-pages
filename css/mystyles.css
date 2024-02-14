@@ -38,7 +38,7 @@
     background-image: url("../contents/linux/img/tux.png");
     background-repeat: repeat;
     background-size: 20%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(59, 59, 59, 0.6);
     background-blend-mode: lighten;
     
 }
@@ -47,7 +47,7 @@
     background-image: url("../contents/freebsd/img/daemon.jpg");
     background-repeat: repeat;
     background-size: 25%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(59, 59, 59, 0.6);
     background-blend-mode: lighten;
     
 }
