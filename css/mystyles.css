@@ -79,7 +79,7 @@
 @media screen and (max-width: 480px) {
 
 .divnavi {
-    float: left;
+    float: none;
     border: 2px solid ;
     border-radius: 5px ;
     margin: 4px;
