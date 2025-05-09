@@ -19,6 +19,10 @@
         transform: translateX(-120%);
     }
 }
+
+@media screen and (min-width: 481px) {
+    
+
 .divnavi {
    float: left;
    border: 2px solid ;
@@ -69,4 +73,61 @@
     background-size: 25%;
     background-color: rgba(139, 139, 139, 0.5);
     background-blend-mode: lighten;
+}
+}
+
+@media screen and (max-width: 480px) {
+
+.divnavi {
+    float: left;
+    border: 2px solid ;
+    border-radius: 5px ;
+    margin: 4px;
+    padding: 4px;   
+ }
+ 
+ .divnavi2 {
+     display : flow-root;
+     border : 2px solid;
+     border-radius: 5px ;
+ 
+ }
+ 
+ .footer {
+     text-align: center;
+     margin: 10px;
+ }
+ .backnavicolor {
+     background-color: rgba(10, 150,100,0.5);
+ }
+ .backcolor {
+     background-color: rgba(150, 50,255,0.5);
+ }
+ 
+ .linuxtux {
+     background-image: url("../contents/linux/img/tux.png");
+     background-repeat: repeat;
+     background-size: 20%;
+     background-color: rgba(139, 139, 139, 0.8);
+     background-blend-mode: lighten;
+     
+ }
+ 
+ .freebsddaemon {
+     background-image: url("../contents/freebsd/img/daemon.jpg");
+     background-repeat: repeat;
+     background-size: 25%;
+     background-color: rgba(139, 139, 139, 0.8);
+     background-blend-mode: lighten;
+     
+ }
+ 
+ .programming_pages {
+     background-image: url("../contents/programming/img/aiwa_pcmt433.jpg");
+     background-repeat: repeat;
+     background-size: 25%;
+     background-color: rgba(139, 139, 139, 0.5);
+     background-blend-mode: lighten;
+ }
+    
 }
