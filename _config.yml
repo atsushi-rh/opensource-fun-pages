@@ -1,3 +1,5 @@
+url: "https://atsushi-hack.github.io"
+baseurl: "/opensource-fun-pages"
 google_analytics: G-6G4287R5MQ
 plugins:
   - jekyll-sitemap
