@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  <!-- Canonical URL 設定 -->
+  {% if page.canonical %}
+    <link rel="canonical" href="{{ page.canonical }}">
+  {% else %}
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  {% endif %}
+
+  <!-- その他 meta, CSS, JS -->
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+  </footer>
+</body>
+</html>
