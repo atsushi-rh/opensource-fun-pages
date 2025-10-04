@@ -1,4 +1,4 @@
-url: "https://atsushi-hack.github.io"
+url: "https://atsushi-rh.github.io"
 baseurl: "/opensource-fun-pages"
 plugins:
   - jekyll-sitemap
