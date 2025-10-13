@@ -3,5 +3,5 @@ function handleSlideScroll(message){
 }
 
 window.onload = function () {
-    handleSlideScroll("Atsushi Hasumoto's Open Source Fun Pages!!");
+    handleSlideScroll("Atsushi Hasumoto のオープンソースファンページの個人的な備忘録です。");
 }
