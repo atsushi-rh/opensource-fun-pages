@@ -3,5 +3,5 @@ function handleSlideScroll(message){
 }
 
 window.onload = function () {
-    handleSlideScroll("Atsushi Hasumoto のオープンソースファンページの個人的な備忘録です。");
+    handleSlideScroll("Atsushi Hasumoto（蓮本 篤志） のオープンソースファンページの個人的な備忘録です。");
 }
